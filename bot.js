@@ -9,7 +9,11 @@ client.on('ready', () => {
 
 client.on('message', msg => {
     if (msg.content === 'hello') {
-      msg.channel.send('not tagging you hehe')
+      msg.reply('hello!');
+    }
+
+    if (msg.content === 'react me') {
+        msg.react('😁');
     }
 });
 
