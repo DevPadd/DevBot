@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('Hello there!');
+    console.log('bot successfully updated and deployed online!');
 })
 
 client.on('message', msg => {
